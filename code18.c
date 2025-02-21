@@ -9,7 +9,7 @@ int main ()
 	printf("Entrez la valeur de b :");
 	scanf("%d", &b);
 	
-	if( (a%b) == 0 )//pour a divisible par b
+	if( (a%b)==0 )//pour a divisible par b
 	{
       		printf("pgcd (a,b) = %d\n", b );
 	}
@@ -17,7 +17,7 @@ int main ()
 		{
 			do
 			{
-		    		r = a % b ;
+		  r = a % b ;
 				a = b ;
 				b = r ;
 				r = ( a % b );	
