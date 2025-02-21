@@ -17,7 +17,7 @@ int main ()
 		{
 			do
 			{
-		        r = a % b ;
+		       	 r = a % b ;
 				a = b ;
 				b = r ;
 				r = ( a % b );	
